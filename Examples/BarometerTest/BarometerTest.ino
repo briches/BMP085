@@ -72,6 +72,8 @@ void setup()
 void loop()
 {
   // This library needs a delay to allow ADC
+  // In application, put a timer on calls to "updatePTA"
+  // so that it gets called after a delay.
   delay(50);
   
   // Call this function on every cycle
